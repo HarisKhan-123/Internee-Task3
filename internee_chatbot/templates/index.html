@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intern Desk · Internee.pk Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="shell">
+
+  <aside class="rail">
+    <div class="rail-brand">
+      <span class="mark">ID</span>
+      <div class="brand-text">
+        <strong>Intern Desk</strong>
+        <span>Internee.pk support</span>
+      </div>
+    </div>
+
+    <div class="rail-status">
+      <span class="dot"></span> Online &middot; answers in seconds
+    </div>
+
+    <nav class="rail-nav" id="categoryNav">
+      <p class="rail-label">Browse by topic</p>
+      {% for c in categories %}
+      <button class="rail-item" data-category="{{ c.id }}">{{ c.label }}</button>
+      {% endfor %}
+    </nav>
+
+    <div class="rail-foot">
+      Can't find it here? Your ticket goes straight to a mentor.
+      <button class="ticket-btn" id="ticketBtn">Open a support ticket</button>
+    </div>
+  </aside>
+
+  <main class="chat">
+    <header class="chat-head">
+      <div>
+        <h1>Ask about tasks, deadlines &amp; policies</h1>
+        <p>Trained on the intern handbook &mdash; no waiting on a mentor's reply.</p>
+      </div>
+    </header>
+
+    <div class="chat-log" id="chatLog">
+      <div class="msg bot">
+        <div class="bubble">
+          Hi! I'm the Intern Desk assistant. Ask me things like
+          <em>&ldquo;where do I submit my task&rdquo;</em> or
+          <em>&ldquo;how do I get my certificate&rdquo;</em> &mdash; or pick a topic on the left.
+        </div>
+      </div>
+    </div>
+
+    <div class="quick-row" id="quickRow">
+      <button class="chip">Where do I submit tasks?</button>
+      <button class="chip">Missed a deadline</button>
+      <button class="chip">How do I get my certificate?</button>
+      <button class="chip">Contact my mentor</button>
+    </div>
+
+    <form class="composer" id="composer">
+      <input
+        id="messageInput"
+        type="text"
+        autocomplete="off"
+        placeholder="Type your question…"
+        aria-label="Message"
+      />
+      <button type="submit" aria-label="Send">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+      </button>
+    </form>
+  </main>
+</div>
+
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+{
+  "categories": [
+    {
+      "id": "onboarding",
+      "label": "Getting Started",
+      "icon": "compass"
+    },
+    {
+      "id": "tasks",
+      "label": "Tasks & Submissions",
+      "icon": "check-square"
+    },
+    {
+      "id": "deadlines",
+      "label": "Deadlines & Extensions",
+      "icon": "clock"
+    },
+    {
+      "id": "evaluation",
+      "label": "Grading & Certificates",
+      "icon": "award"
+    },
+    {
+      "id": "policies",
+      "label": "Policies & Conduct",
+      "icon": "shield"
+    },
+    {
+      "id": "support",
+      "label": "Support & Escalation",
+      "icon": "life-buoy"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "kb001",
+      "category": "onboarding",
+      "question": "How do I get started as a new intern?",
+      "variants": ["how do i start my internship", "first day steps", "onboarding process", "what should i do first"],
+      "answer": "Start by completing your profile on the Internee.pk dashboard, joining the official Discord/Slack workspace for your track, and reading the welcome module for your program. Your first task usually unlocks within 24 hours of registration."
+    },
+    {
+      "id": "kb002",
+      "category": "onboarding",
+      "question": "Which track or domain am I assigned to?",
+      "variants": ["what is my domain", "which track am i in", "how do i know my assigned field"],
+      "answer": "Your assigned track is shown at the top of your dashboard under 'My Program'. If it looks incorrect, contact support with your registration email so it can be corrected."
+    },
+    {
+      "id": "kb003",
+      "category": "tasks",
+      "question": "Where do I submit my completed tasks?",
+      "variants": ["how to submit task", "where to upload assignment", "submission link", "how do i turn in my work"],
+      "answer": "Submit tasks through the 'My Tasks' tab on your dashboard using the Submit button on each task card. Accepted formats are GitHub repo links, PDFs, or live demo links depending on the task type. Email submissions are not accepted."
+    },
+    {
+      "id": "kb004",
+      "category": "tasks",
+      "question": "Can I work in a team or must tasks be done individually?",
+      "variants": ["group work allowed", "can i collaborate with other interns", "team submissions"],
+      "answer": "Unless a task explicitly says 'Group Task', all submissions must be individual work. You're welcome to discuss concepts with peers, but the code/content you submit must be your own."
+    },
+    {
+      "id": "kb005",
+      "category": "tasks",
+      "question": "What should I do if a task description is unclear?",
+      "variants": ["task instructions confusing", "i dont understand the assignment", "unclear requirements"],
+      "answer": "Post your question in the track-specific help channel first, since a mentor or fellow intern may have already answered it. If it's still unclear after 24 hours, open a support ticket referencing the task ID."
+    },
+    {
+      "id": "kb006",
+      "category": "tasks",
+      "question": "Can I resubmit a task after the review?",
+      "variants": ["resubmit after feedback", "fix and resubmit", "revise my submission"],
+      "answer": "Yes. If a reviewer requests changes, you'll see 'Revision Requested' on the task card with comments. You get one resubmission window per task, typically 3 days, before it's marked final."
+    },
+    {
+      "id": "kb007",
+      "category": "deadlines",
+      "question": "What happens if I miss a task deadline?",
+      "variants": ["missed deadline", "late submission policy", "what if i submit late"],
+      "answer": "Tasks submitted within 48 hours of the deadline are accepted with a minor late penalty noted in your evaluation. After 48 hours, the task is marked missed unless you were granted an approved extension."
+    },
+    {
+      "id": "kb008",
+      "category": "deadlines",
+      "question": "How do I request a deadline extension?",
+      "variants": ["ask for extension", "need more time for task", "extension request process"],
+      "answer": "Request extensions at least 24 hours before the deadline via the 'Request Extension' button on the task card, with a short reason. Extensions are granted case by case and are more likely to be approved for documented emergencies."
+    },
+    {
+      "id": "kb009",
+      "category": "deadlines",
+      "question": "How long does the internship program run?",
+      "variants": ["internship duration", "how many weeks is the program", "program length"],
+      "answer": "Most Internee.pk programs run for 6 to 8 weeks, with weekly task releases. Your exact start and end dates are listed under 'Program Timeline' on your dashboard."
+    },
+    {
+      "id": "kb010",
+      "category": "evaluation",
+      "question": "How is my performance graded?",
+      "variants": ["grading criteria", "how are tasks scored", "evaluation rubric"],
+      "answer": "Each task is scored out of 100 based on correctness, code/content quality, adherence to instructions, and timeliness. Your final score is the average of all task scores, weighted toward the later, more advanced tasks."
+    },
+    {
+      "id": "kb011",
+      "category": "evaluation",
+      "question": "How do I get my completion certificate?",
+      "variants": ["certificate download", "when do i get my certificate", "completion certificate process"],
+      "answer": "Certificates are auto-generated within 5 working days after the program ends, provided you completed at least 80% of tasks with a passing score. You'll find the download link under 'Certificates' on your dashboard."
+    },
+    {
+      "id": "kb012",
+      "category": "evaluation",
+      "question": "Can I get a letter of recommendation?",
+      "variants": ["recommendation letter", "reference letter request", "LOR"],
+      "answer": "Top-performing interns (top 10% by final score) are eligible for a letter of recommendation. If eligible, you'll see a request option next to your certificate link."
+    },
+    {
+      "id": "kb013",
+      "category": "policies",
+      "question": "What counts as plagiarism or academic dishonesty?",
+      "variants": ["plagiarism policy", "copying code policy", "cheating rules"],
+      "answer": "Submitting someone else's work, copying solutions without attribution, or using AI-generated output without disclosing it (where disclosure is required) counts as academic dishonesty and can lead to disqualification. Using references and citing them properly is always fine."
+    },
+    {
+      "id": "kb014",
+      "category": "policies",
+      "question": "Is it okay to use AI tools like ChatGPT for tasks?",
+      "variants": ["can i use chatgpt", "ai tools allowed", "using AI for assignments"],
+      "answer": "AI tools are allowed as learning aids for most tasks, but you must understand and be able to explain any code or content you submit. Tasks that explicitly prohibit AI assistance will say so in the instructions."
+    },
+    {
+      "id": "kb015",
+      "category": "policies",
+      "question": "What is the code of conduct for interns?",
+      "variants": ["code of conduct", "behavior expectations", "community guidelines"],
+      "answer": "Interns are expected to communicate respectfully, avoid spamming help channels, credit collaborators, and keep shared program materials confidential. Harassment or abusive behavior toward staff or peers results in immediate removal from the program."
+    },
+    {
+      "id": "kb016",
+      "category": "policies",
+      "question": "Can I drop out of the internship after starting?",
+      "variants": ["quit internship", "withdraw from program", "leave the internship early"],
+      "answer": "Yes, you can withdraw at any time by submitting a withdrawal request from your dashboard settings. Note that certificates are only issued for interns who complete at least 80% of tasks before withdrawing."
+    },
+    {
+      "id": "kb017",
+      "category": "support",
+      "question": "How do I contact my mentor?",
+      "variants": ["talk to mentor", "mentor contact", "reach my assigned mentor"],
+      "answer": "Your mentor's contact details and office hours are listed under 'My Mentor' on your dashboard. For quick questions, the track help channel usually gets a faster response than direct messages."
+    },
+    {
+      "id": "kb018",
+      "category": "support",
+      "question": "Who do I contact for technical issues with the dashboard?",
+      "variants": ["dashboard not working", "technical support", "site bug report", "cant login"],
+      "answer": "Report technical issues through the 'Report a Problem' link in the dashboard footer, or email support@internee.pk with a screenshot. Login issues are usually resolved within a few hours during working days."
+    },
+    {
+      "id": "kb019",
+      "category": "support",
+      "question": "How do I escalate an unresolved complaint?",
+      "variants": ["escalate issue", "complaint not resolved", "speak to program manager"],
+      "answer": "If a mentor or support ticket hasn't resolved your issue within 3 working days, reply to the ticket asking to escalate, or email escalations@internee.pk. Escalated issues are reviewed directly by the program management team."
+    },
+    {
+      "id": "kb020",
+      "category": "support",
+      "question": "Is there a stipend or payment for the internship?",
+      "variants": ["do interns get paid", "stipend amount", "is this a paid internship"],
+      "answer": "Most Internee.pk tracks are unpaid, skill-building internships focused on certificates and portfolio projects. A small number of sponsored tracks offer a stipend, which is clearly marked on the program listing page."
+    }
+  ]
+}
